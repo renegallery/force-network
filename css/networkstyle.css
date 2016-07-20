@@ -1,0 +1,66 @@
+.caption {
+  font-weight: bold;
+}
+
+path.link {
+  fill: none;
+  stroke: #999;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+text {
+  fill: #000;
+  font: 0px sans-serif;
+  pointer-events: none;
+}
+
+
+.d3-tip {
+	max-width: 200px;
+	line-height: 1;
+  	font: 13px Helvetica, arial, sans-serif;
+  	line-height: 17px;
+  	padding: 10px 5px;
+  	background: #FFF;
+  	border: 1px solid #ccc;
+  	box-shadow: 0 1px 3px 0 #ccc;
+  	color: #333;
+  	border-radius: 2px;
+}
+
+.d3-tip .exit {
+	float: right;
+  	margin-top: -5px;
+  	color: #ccc;
+  	font-size: 20px;
+  	padding: 0 5px 0 10px;
+  	pointer-events: auto;
+}
+
+.d3-tip h3 {
+	line-height: 20px;
+	margin: 0px;
+	font-size: 17px;
+	float: left;
+}
+
+.d3-tip h4 {
+	margin: 0;
+	font-size: 12px;
+	float: right;
+	color: #999;
+	line-height: 17px;
+}
+
+.d3-tip .tip-role {
+	margin: 5px 5px 0 5px;
+	padding-top: 5px;
+	border-top: 1px dotted #CCC;
+	float: left;
+}
